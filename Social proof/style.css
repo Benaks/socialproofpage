@@ -1,0 +1,367 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color:hsl(0, 0%, 100%) ;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg-pattern-top-desktop.svg), url(bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left , bottom right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+p{
+    line-height: 20px;
+}
+
+.container{
+    width:1000px ;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.cards{
+    
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+}
+ .right{
+     width: 500px;
+     height: 250px;
+     display: flex;
+     flex-direction:column;
+    
+     
+ }  
+ .right p{
+     padding: 0;
+ } 
+
+ .right img{
+    width: 19px;
+    height: 15px;
+    padding-right: 5px;
+ }
+ .star-1{
+     background-color:hsl(300, 24%, 96%);
+     width: 400px;
+     height: 50px;
+     margin: 30px 0px 20px 0px;
+     border-radius: 5px;
+     display: flex;
+     padding: 10px;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .star-1 p, .star-2 p, .star-3 p{
+     padding-left: 10px;
+     font-size: 15px;
+     color:hsl(300, 43%, 22%) ;
+     font-weight: 700;
+ }
+ .star-2{
+    background-color: hsl(300, 24%, 96%);
+    width: 400px;
+    height: 50px;
+    margin: 0px 30px 0px 50px;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.star-3{
+    background-color:hsl(300, 24%, 96%);
+    width: 400px;
+    height: 50px;
+    margin:20px 90px 30px 100px ;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+ .left{
+    width: 500px;
+    height: 250px;
+    color: hsl(300, 43%, 22%);
+    padding-right: 100px;
+
+}  
+
+.left h1{
+    font-size:45px;
+    padding-right: 0px;
+    font-weight: bolder;
+}
+.left p{
+    padding-top: 20px;
+    color:hsl(303, 10%, 53%);
+}
+   
+.card-1{
+   background-color: hsl(300, 43%, 22%); 
+   width: 320px;
+   margin: 20px 20px 50px 0px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   
+}
+.colton{
+    display: flex;
+    padding: 20px;
+
+}
+.colton img{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.colton-right{
+    width: 400px;
+
+}
+.colton-right p{
+    color:hsl(333, 80%, 67%);
+    padding: 0px;
+    font-weight: 400;
+}
+.colton-right h4{
+    color:hsl(0, 0%, 100%) ;
+}
+.testimony p{
+    width: 330px;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px;
+    padding-top: 0px;
+    
+
+}
+.card-2{
+    background-color:hsl(300, 43%, 22%) ;
+    width: 320px;
+    margin: 40px 20px 30px 0px;
+    border-radius: 5px;
+    
+}
+.card-3{
+    background-color: hsl(300, 43%, 22%);
+    width: 320px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media(max-width:600px){
+    
+    body{
+        background-color:hsl(0, 0%, 100%) ; 
+        background-image: url(bg-pattern-top-mobile.svg), url(bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: top left , bottom right;
+        display: flex;
+        overflow-x: hidden;
+        height: 80em;
+        width: 375px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    p{
+        line-height: 20px;
+    }
+    
+    .container{
+        width:100vw ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .text{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .cards{
+        
+        width:100vw;
+        height: 100vh;
+        display: flex;
+        padding: 20px;
+        flex-direction:column;
+    }
+     .right{
+    
+         display:flex;
+         flex-direction:column;
+        
+         
+     }  
+     .right p{
+         padding: 0;
+     } 
+    
+     .right img{
+        width: 19px;
+        height: 15px;
+        padding-right: 5px;
+     }
+     .star-1{
+         background-color:hsl(300, 24%, 96%);
+         width: 100vw;
+         height:60px;
+
+         border-radius: 5px;
+         display: flex;
+         padding: 10px;
+         align-items: center;
+         justify-content: center;
+     }
+     
+     .star-1 p, .star-2 p, .star-3 p{
+         padding-left: 10px;
+         font-size: 15px;
+         color:hsl(300, 43%, 22%) ;
+         font-weight: 700;
+     }
+     .star-2{
+        background-color: hsl(300, 24%, 96%);
+        width: 100vw;
+        height: 60px;
+        margin-left: 0px;
+        border-radius: 5px;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .star-3{
+        background-color:hsl(300, 24%, 96%);
+        width: 100vw;
+        height: 60px;
+        border-radius: 5px;
+        margin-left: 0px;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+     .left{
+        width:100vw;
+        height: 250px;
+        color: hsl(300, 43%, 22%);
+    
+    }  
+    
+    .left h1{
+        padding: 0px;
+        width: 100vw;
+        text-align: center;
+        font-size:45px;
+        padding-right: 0px;
+        font-weight: bolder;
+    }
+    .left p{
+        color:hsl(303, 10%, 53%);
+        width: 90vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+       
+    .card-1{
+       background-color: hsl(300, 43%, 22%); 
+       width: 100vw;
+       border-radius: 5px;
+       margin: 0px;
+       display: flex;
+       flex-direction: column;
+       
+    }
+    .colton{
+        display: flex;
+        padding: 20px;
+        
+    
+    }
+    .colton img{
+        width: 30px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .colton-right{
+        width: 400px;
+    
+    }
+    .colton-right p{
+        color:hsl(333, 80%, 67%);
+        padding: 0px;
+        font-weight: 400;
+    }
+    .colton-right h4{
+        color:hsl(0, 0%, 100%) ;
+    }
+    .testimony p{
+        width: 95VW;
+        color: hsl(0, 0%, 100%);
+        font-size: 14px;
+        font-weight: 400;
+        padding: 20px;
+        padding-top: 0px;
+        
+    
+    }
+    .card-2{
+        background-color:hsl(300, 43%, 22%) ;
+        width:100vw;
+        border-radius: 5px;
+        padding: 0px;
+    }
+    .card-3{
+        background-color: hsl(300, 43%, 22%);
+        width:100vw ;
+        border-radius: 5px;
+        margin: 0px;
+
+    }
+    
+
+}
+
+
